@@ -6,7 +6,8 @@
         x:Class="Calculator.MainWindow"
         Title="Calculator"
         Width="400"
-        Height="700">
+        Height="700"
+        CanResize="False">
 
     <Window.Styles>
         <StyleInclude Source="/Styles/MainStyle.axaml"/>
