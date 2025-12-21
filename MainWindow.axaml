@@ -15,7 +15,44 @@
         
 
         <Grid Grid.Row="1" ColumnDefinitions="auto">
-            <Grid RowDefinitions = "auto">
+            <WrapPanel>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+                <Button Content="+"/>
+
+            </WrapPanel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <Grid RowDefinitions = "auto">
+
 
             <StackPanel Grid.Row="0">
                 <StackPanel Grid.Column="0" Orientation="Horizontal">
@@ -108,14 +145,14 @@
                 <StackPanel Grid.Column="3" Orientation="Horizontal">
                     <Button Content="+"/>
                 </StackPanel>
-            </StackPanel>
+            </StackPanel> -->
 
 
 
 
 
 
-        </Grid>
+        <!-- </Grid> -->
         </Grid>
     </Grid>
 
