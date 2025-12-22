@@ -14,10 +14,12 @@
     </Window.Styles>
 
     <Grid RowDefinitions=" * , 3.5*">
-        <StackPanel Grid.Row="0">
-    
-        </StackPanel>
-        
+        <Border Classes="TextPanel">
+            <StackPanel Grid.Row="0" Classes="TextPanel">
+                <TextBlock Text="Result" Classes="Result"/>
+                <TextBlock Text="Operations" Classes="Operations"/>
+            </StackPanel>
+        </Border>
         <Grid Grid.Row="1">
             <Grid ColumnDefinitions="*,*,*,*" HorizontalAlignment="Center">
             <StackPanel Grid.Column="0">
