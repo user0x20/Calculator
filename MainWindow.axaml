@@ -28,41 +28,41 @@
 
                     <StackPanel Grid.Column="0">
                         <WrapPanel Orientation="Vertical">
-                            <Button Content="CE" Click="Add"/>
-                            <Button Content="7" Click="Add"/>
-                            <Button Content="4" Click="Add"/>
-                            <Button Content="1" Click="Add"/>
-                            <Button Content="." FontSize="30" Click="Add"/>
+                            <Button Content="CE" Click="Clear"/>
+                            <Button Content="7" Click="AddDigit"/>
+                            <Button Content="4" Click="AddDigit"/>
+                            <Button Content="1" Click="AddDigit"/>
+                            <Button Content="." FontSize="30" Click="AddPoint"/>
                         </WrapPanel>
                     </StackPanel>
 
                     <StackPanel Grid.Column="1">
                     <WrapPanel Orientation="Vertical">
-                        <Button Content="x²" Click="Add"/>
-                        <Button Content="8" Click="Add"/>
-                        <Button Content="5" Click="Add"/>
-                        <Button Content="2" Click="Add"/>
-                        <Button Content="0" Click="Add"/>
+                        <Button Content="x²" Click="AddPower"/>
+                        <Button Content="8" Click="AddDigit"/>
+                        <Button Content="5" Click="AddDigit"/>
+                        <Button Content="2" Click="AddDigit"/>
+                        <Button Content="0" Click="AddDigit"/>
                     </WrapPanel>
                     </StackPanel>
 
                     <StackPanel Grid.Column="2">
                     <WrapPanel Orientation="Vertical">
-                        <Button Content="√x" Click="Add"/>
-                        <Button Content="9" Click="Add"/>
-                        <Button Content="6" Click="Add"/>
-                        <Button Content="3" Click="Add"/>
-                        <Button Content="%" Click="Add"/>
+                        <Button Content="√x" Click="AddSqrt"/>
+                        <Button Content="9" Click="AddDigit"/>
+                        <Button Content="6" Click="AddDigit"/>
+                        <Button Content="3" Click="AddDigit"/>
+                        <Button Content="%" Click="AddOper"/>
                     </WrapPanel>
                     </StackPanel>
 
                     <StackPanel Grid.Column="3">
                     <WrapPanel Orientation="Vertical">
-                        <Button Content="÷" Click="Add"/>
-                        <Button Content="×" Click="Add"/>
-                        <Button Content="-" FontSize="30" Click="Add"/>
-                        <Button Content="+" Click="Add"/>
-                        <Button Content="=" Click="Add"/>
+                        <Button Content="÷" Click="AddOper"/>
+                        <Button Content="×" Click="AddOper"/>
+                        <Button Content="-" FontSize="40" Click="AddOper"/>
+                        <Button Content="+" Click="AddOper"/>
+                        <Button Content="=" Click="Calculate"/>
                     </WrapPanel>
                     </StackPanel>
 
