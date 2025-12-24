@@ -3,9 +3,11 @@
 
 ## Сборка
 
+<img src="./Assets/Images/noted.gif" width="200"/>
+
 ### Требуется
 1. .NET SDK 9
-2. Avalonia Templates
+2. Вроде всё
 
 ### Сама сборка
 1. git clone https://github.com/user0x20/Calculator.git
